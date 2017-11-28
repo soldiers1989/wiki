@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wiki - 爱回收FE</title>
+  <meta name="description" content="aihuishou">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">请稍候...</div>
+</body>
+<script>
+  window.$docsify = {
+    name: '爱回收FE-WIKI',
+    repo: 'http://code.aihuishou.com/AihuishouFE/wiki',
+    auto2top: true,
+    // 左侧边栏，对应的dpm从_sidebar.md生成
+    loadSidebar: true,
+
+    //支持全文检索
+    // complete configuration parameters
+    search: {
+      placeholder: {
+        '/': '搜索'
+      },
+      noData: '找不到结果'
+    },
+
+    //subMaxLevel: 2,
+    maxLevel: 4,
+    subMaxLevel: 2,
+    //coverpage: 'cover.md'
+  }
+</script>
+<!--<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>-->
+<script src="./lib/docsify.min.js"></script>
+<script src="./lib/search.min.js"></script>
+</html>

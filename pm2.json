@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "wiki",
+      "cwd": ".",
+      "description": "wiki pm2 config file",
+      "script": "index.js",
+      //"node_args": "--harmony-async-await",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}

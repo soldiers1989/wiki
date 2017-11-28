@@ -1,0 +1,20 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "aihuishou",
+  "main": "index.js",
+  "url": "http://192.168.3.116:5941/#/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.aihuishou.com:AihuishouFE/wiki.git"
+  },
+  "dependencies": {
+    "opn": "^5.1.0",
+    "shelljs": "^0.7.8"
+  },
+  "author": "",
+  "license": "ISC"
+}
